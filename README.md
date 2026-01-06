@@ -1,1 +1,3 @@
 # PDF_CHAT
+
+PDF chat refers to using Retrieval-Augmented Generation (RAG) for interacting with PDF documents in a conversational way. In this approach, the content of a PDF is first processed and stored in a vector database. When a user asks a question, the system retrieves the most relevant sections of the PDF using similarity search. These retrieved chunks are then passed to a language model, which generates a coherent and accurate response by combining the retrieved knowledge with its reasoning ability. This method ensures that answers are context-specific, reliable, and grounded in the actual content of the PDF.
